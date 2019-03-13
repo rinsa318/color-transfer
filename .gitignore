@@ -102,3 +102,6 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+document/
+images/result/*
+figure/*.ai
