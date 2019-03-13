@@ -9,7 +9,7 @@
  ----------------------------------------------------
 
   Usage:
-   python main.py argvs[1] argvs[2] argvs[3]...
+   python main.py argvs[1] argvs[2]
   
    argvs[1]  :  src image   -->   style
    argvs[2]  :  target image
