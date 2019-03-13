@@ -37,6 +37,6 @@ argvs[2]  :  path to target image
 
 ## References
 
-[1] [Reinhard](http://erikreinhard.com/colour_transfer.html), Erik, et al. "Color transfer between images." IEEE Computer graphics and applications 21.5 (2001): 34-41. [[Paper](http://erikreinhard.com/papers/colourtransfer.pdf "Paper")]   
+[1] [Reinhard, Erik](http://erikreinhard.com/colour_transfer.html), et al. "Color transfer between images." IEEE Computer graphics and applications 21.5 (2001): 34-41. [[Paper](http://erikreinhard.com/papers/colourtransfer.pdf "Paper")]   
   
 [2] Adrian's [blog](https://www.pyimagesearch.com/2014/06/30/super-fast-color-transfer-images/)
