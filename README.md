@@ -1,5 +1,5 @@
 # color-transfer
-Implementation of "Color transfer between images" [1]. My immplementation is based on [this blog[2]](https://www.pyimagesearch.com/2014/06/30/super-fast-color-transfer-images/). I'm also using same style images that used in above blog.
+Implementation of ["Color transfer between images" [1]](http://erikreinhard.com/papers/colourtransfer.pdf). My immplementation is based on [this blog[2]](https://www.pyimagesearch.com/2014/06/30/super-fast-color-transfer-images/). I'm also using same style images that used in above blog.
 
 <p align="center">
   <img src="./figure/figure1.png" width=85%>
