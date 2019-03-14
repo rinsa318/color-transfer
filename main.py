@@ -5,7 +5,7 @@
   @Email: rinsa@suou.waseda.jp
   @Date: 2019-03-14 03:23:10
   @Last Modified by:   rinsa318
-  @Last Modified time: 2019-03-14 04:29:50
+  @Last Modified time: 2019-03-14 17:06:54
  ----------------------------------------------------
 
   Usage:
@@ -42,15 +42,15 @@ tar_path = argvs[2]
 ## ------------------------------
 filename_src, ext_src = os.path.splitext( os.path.basename(src_path) )
 filename_tar, ext_tar = os.path.splitext( os.path.basename(tar_path) )
-path_src, filefullname_src = os.path.split( src_path )
-path_tar, filefullname_tar = os.path.split( tar_path )
+src_dir, filefullname_src = os.path.split( src_path )
+tar_dir, filefullname_tar = os.path.split( tar_path )
 ## check name
 print("source image --> " + filefullname_src)
 print("target image --> " + filefullname_tar)
 
 
 ## for output
-output_dir = "{0}/result/{1}".format(path_tar, filename_tar)
+output_dir = "{0}/result/{1}".format(tar_dir, filename_tar)
 if(not(os.path.exists(output_dir))):
   os.mkdir(output_dir)
 
