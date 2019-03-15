@@ -74,12 +74,10 @@ def colortransfer(src, tar):
   b += bMeanSrc
 
   ## have to scale array 0 to 255
-  l = scaled = np.clip(l, 0, 255)
-  a = scaled = np.clip(a, 0, 255)
-  b = scaled = np.clip(b, 0, 255)
-  # l = scale_array(l)
-  # a = scale_array(a)
-  # b = scale_array(b)
+  l = np.clip(l, 0, 255)
+  a = np.clip(a, 0, 255)
+  b = np.clip(b, 0, 255)
+
 
   ## merge the channels together and convert back to the RGB color space
   ## note: If image consist of gray scale, only l space will transfer 
